@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Buon Compleanno Cesare! 🎉</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #e0f7ff, #d0eaff);
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(to right, #005ea8, #00a6fb);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      background-size: cover;
+      background-position: center;
+      text-shadow: 2px 2px 5px #000000;
+    }
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.3em;
+    }
+    .banner {
+      text-align: center;
+      background: #cce6ff;
+      padding: 20px;
+      font-size: 1.5em;
+      color: #003d66;
+      border-top: 4px solid #0077cc;
+      border-bottom: 4px solid #0077cc;
+    }
+    .meme-container {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      padding: 30px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .meme {
+      background: #f0f8ff;
+      padding: 25px;
+      border-radius: 20px;
+      border: 2px dashed #0077cc;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    .meme:hover {
+      transform: scale(1.02);
+    }
+    .meme h3 {
+      margin-top: 0;
+      color: #004c99;
+    }
+    video {
+      width: 100%;
+      border-radius: 12px;
+      margin-top: 10px;
+      height: auto;
+    }
+
+    /* Responsive per dispositivi mobili */
+    @media (max-width: 600px) {
+      header {
+        padding: 30px 15px;
+      }
+      header h1 {
+        font-size: 2em;
+      }
+      header p {
+        font-size: 1.1em;
+      }
+      .banner {
+        font-size: 1.2em;
+        padding: 15px;
+      }
+      .meme-container {
+        padding: 20px 10px;
+        gap: 20px;
+      }
+      .meme {
+        padding: 15px;
+        border-radius: 15px;
+        border: 1.5px dashed #0077cc;
+      }
+      .meme h3 {
+        font-size: 1.1em;
+      }
+      .top-image img {
+        max-width: 100px;
+        margin: 10px 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎉 Buon Compleanno Cesare! 🎂</h1>
+    <p>Con affetto da Dose, Dadda... e tutti i tuoi meme preferiti 💙</p>
+  </header>
+
+  <div class="banner">🎈 Scorri per rivivere i meme più iconici, dal passato fino ad oggi! 🎈</div>
+
+  <div class="meme-container">
+    <div class="meme">
+      <h3>1. "Dadda chi èhh" - L'esplorazione finita male</h3>
+      <video controls>
+        <source src="video1.mp4" type="video/mp4" />
+        Il tuo browser non supporta il video.
+      </video>
+    </div>
+
+    <div class="meme">
+      <h3>2. "kinder pinguin" - La dislessia di Dadda</h3>
+      <video controls>
+        <source src="video2.mp4" type="video/mp4" />
+        Il tuo browser non supporta il video.
+      </video>
+    </div>
+
+    <div class="meme">
+      <h3>3. "Io sono un fantasma" - I fantasmi esistono</h3>
+      <video controls>
+        <source src="video3.mp4" type="video/mp4" />
+        Il tuo browser non supporta il video.
+      </video>
+    </div>
+
+    <div class="meme">
+      <h3>4. "Five second battle" - Dose e la pazienza</h3>
+      <video controls>
+        <source src="video4.mp4" type="video/mp4" />
+        Il tuo browser non supporta il video.
+      </video>
+    </div>
+
+    <div class="meme">
+      <h3>5. "La racchetta per zanzare" - Dose scopre che funziona</h3>
+      <video controls>
+        <source src="video5.mp4" type="video/mp4" />
+        Il tuo browser non supporta il video.
+      </video>
+    </div>
+  </div>
+</body>
+</html>
